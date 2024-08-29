@@ -1,0 +1,55 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* Встановлення висоти для body */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилі для header */
+.header {
+    background-color: #4CAF50; /* Зелений */
+    color: white;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Горизонтально зліва */
+    padding-left: 20px;
+}
+
+/* Стилі для main */
+.main {
+    background-color: #2196F3; /* Синій */
+    color: white;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Горизонтально по центру */
+}
+
+/* Стилі для footer */
+.footer {
+    background-color: #f44336; /* Червоний */
+    color: white;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Горизонтально праворуч */
+    padding-right: 20px;
+}
+
+/* Стилі для тексту */
+.text {
+    font-size: 24px; /* Розмір тексту */
+    color: white; /* Колір тексту */
+    font-family: Arial, sans-serif; /* Шрифт */
+    line-height: 1.5;
+    font-weight: bold;
+}
